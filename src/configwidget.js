@@ -5,6 +5,7 @@ export default {
       scopes: ['openid', 'profile', 'email'],
       redirectUri: `${window.location.origin}/login/callback`
     },
+    
     widget: {
       issuer: 'https://dev-xxxxx.okta.com',
       clientId: 'client id goes here',
